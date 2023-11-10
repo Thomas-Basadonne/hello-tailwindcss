@@ -2,7 +2,14 @@
 export default {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        ghost: {
+          100: "#871c94",
+          200: "#410647",
+        },
+      },
+    },
   },
   plugins: [],
 };
