@@ -26,7 +26,14 @@ export default {
       5: "32px",
       6: "48px",
     },
+    // se sta fuori extend devi riscriverli tutti se invece sta dentro extend si appoggia alle classi tailwind e aggiunge solo la tua modifica
+    // fontSize: {},
     extend: {
+      // con questo fontsize sm è piu grande di md
+      fontSize: {
+        sm: "18px",
+      },
+
       colors: {
         ghost: {
           100: "#871c94",
